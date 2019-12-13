@@ -315,12 +315,22 @@ header .brand-logo .logo-span {
     font-size: 2rem;
 }
 
+
+/* 下面的媒体查询是我添加的 */
+
+@media screen and (max-width: 428px) {
+    header .brand-logo .logo-span {
+        font-size: 1.5rem;
+    }
+}
+
 header .button-collapse i {
     font-size: 1.5rem;
 }
 
 header .side-nav .mobile-head {
     padding: 0 15px;
+    background-color: #ee6e73;
 }
 
 header .side-nav .mobile-head img {
@@ -353,6 +363,10 @@ header .side-nav .menu-list a {
     height: 50px;
     line-height: 50px;
     color: #34495e !important;
+}
+
+.mobile-menu-list {
+    background-color: #ee6e73;
 }
 
 .mobile-menu-list a i {

@@ -4197,6 +4197,14 @@ nav .brand-logo.center {
     }
 }
 
+
+/* 
+@media only screen and (max-width: 400px) {
+    header .brand-logo .logo-span {
+        font-size: 1.5rem;
+    }
+} */
+
 nav .brand-logo.right {
     right: 0.5rem;
     padding: 0
